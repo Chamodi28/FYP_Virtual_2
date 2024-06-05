@@ -26,7 +26,7 @@ import os
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-app = Flask(__name__,)
+app = Flask(__name__)
 
 image_path = os.path.join('black_bkg.png')
 apply_status_tops = False
